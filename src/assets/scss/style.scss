@@ -2,10 +2,15 @@
  * Cosmo Design System *
 ========================*/
 
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&display=swap');
+
 // Core
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
+
+@import "custom/variables";
 
 // Bootstrap components
 @import "bootstrap/root";
@@ -40,3 +45,9 @@
 @import "bootstrap/carousel";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
+// Custom Components
+@import "custom/typography";
+
+// Aplications
+@import "custom/utilities/header";

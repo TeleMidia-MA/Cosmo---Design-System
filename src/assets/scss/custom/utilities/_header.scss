@@ -1,0 +1,15 @@
+.header-main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: $color-bkg-header;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}

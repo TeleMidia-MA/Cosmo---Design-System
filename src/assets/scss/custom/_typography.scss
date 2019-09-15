@@ -1,0 +1,39 @@
+body {
+    font-family: mukta;
+}
+
+h1, 
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    @extend .regular;
+    color: $main-color;
+}
+
+p {
+    @extend .light;
+}
+
+
+// Font Styles
+.extra-light {
+    font-weight: 100;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
