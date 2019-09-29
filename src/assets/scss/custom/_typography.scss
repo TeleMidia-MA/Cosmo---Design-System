@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
     @extend .regular;
+    @extend .my-2;
     color: $main-color;
 }
 
